@@ -1,0 +1,205 @@
+/* Reset all the margin and padding */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif;
+}
+
+/* Layout */
+
+.main {
+    height: 100%;
+    width: 70vmax;
+    margin: 2.3rem auto;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    background-color: rgb(87, 42, 212);
+}
+
+.logo-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* .nav-log {
+    margin-left: 100%;
+} */
+
+.course-image {
+    height: 100px;
+    width: 100px;
+    overflow: none;
+
+}
+
+.navbar {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: auto 5px;
+}
+
+.navigation-icon {
+    list-style: none;
+    color: white;
+
+}
+
+.border-line {
+    border-right: 2px solid white;
+    padding-right: 1rem;
+}
+
+#nav-button {
+    padding: 8px 16px;
+    margin: 18px 20px;
+    color: white;
+    background-color: rgb(37, 35, 35);
+    border: none;
+    border-radius: 2px;
+}
+
+/* FIRST SECTION  */
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(236, 193, 53);
+    height: 13.7rem;
+    gap: 0.5rem;
+}
+
+.first-section-heading {
+    font-size: 2.2rem;
+}
+
+.first-section-p {
+    font-size: 12px;
+}
+
+.first-section-button {
+    display: flex;
+    gap: 3.2rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.3rem;
+}
+
+.button {
+    padding: 8px 17px;
+    border: none;
+    color: white;
+    background-color: rgb(87, 42, 212);
+    border-radius: 2px;
+}
+
+/* SECOND SECTION  */
+
+.second-section {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 18rem;
+    background-color: rgb(237, 238, 226);
+    padding: 8rem 6rem;
+}
+
+.second-middle-part {
+    display: flex;
+    gap: 4.5rem;
+    padding-left: 4rem;
+}
+
+.second-section-img {
+    border-radius: 50%;
+
+}
+
+.article-button {
+    float: left;
+}
+
+.courses-icon {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3px;
+}
+
+.thied-section {
+    background-color: rgb(237, 238, 226);
+}
+
+.courses {
+    background-color: rgb(237, 238, 226);
+    padding: 1rem 5rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.2rem;
+}
+
+.php-web-development {
+    background-color: rgba(26, 104, 168, 0.856);
+}
+
+.Android-Development {
+    background-color: rgba(120, 223, 51, 0.897);
+    padding-top: 4px;
+}
+
+.iPhone-Development {
+    background-color: black;
+}
+
+.Python-Training {
+    background-color: rgb(10, 7, 7);
+}
+
+.Java-Training {
+    background-color: rgb(105, 7, 0);
+}
+
+.Software-Testing {
+    background-color: rgb(55, 55, 255);
+}
+
+.Digital-Marketing {
+    background-color: rgb(255, 184, 51);
+}
+
+.Website-Designing {
+    background-color: rgb(54, 174, 255);
+}
+
+.courses-name {
+    color: white;
+    padding: 8px 6px;
+    font-size: 13px;
+}
+
+.footer {
+    background-color: rgb(87, 42, 212);
+    height: 6rem;
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+}
